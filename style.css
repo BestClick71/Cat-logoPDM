@@ -1,0 +1,235 @@
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #3a7563;
+}
+
+/*titulo*/
+
+.head {
+  display: flex;
+  background-color: #59a985;
+  flex-wrap: wrap;
+  justify-content: centers;
+  align-content: center;
+  flex-direction: column;
+}
+
+.head .head-item {
+  font-size: 30px;
+  padding: 5px;
+  margin: 0;
+  align-self: center;
+}
+#h2 {
+  font-family: "Playwrite NG Modern", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  padding: 0;
+}
+#catalogo {
+  font-size: 25px;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  font-size: 18px;
+  background-color: #e6d3a7;
+  position: sticky;
+  top: 0;
+}
+
+.menu .menu-item {
+  border: solid rgb(172, 159, 90);
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+}
+/*titulos de separadores*/
+.titulo {
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  background-color: #3a7563;
+}
+.titulo .titulos {
+  padding-left: 60px;
+  font-family: "Special Elite", system-ui;
+  font-weight: 500;
+  font-style: bold;
+  text-shadow: #6aaf90 2px 2px 7px;
+  color: rgb(0, 0, 0);
+}
+/*Panaderia*/
+
+.grid-cont {
+  display: grid;
+  grid-template-rows: repeat(24, 90px);
+  grid-template-columns: 90px 1fr 90px;
+  column-gap: 8px;
+  row-gap: 5px;
+  background-color: #392f2f;
+}
+
+.grid-cont .img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: double #e6d3a7 2px;
+}
+
+.grid-cont .descrip {
+  color: white;
+  margin: 0;
+  font-size: 16px;
+  border-top: #978761 2px solid;
+  padding: 5px;
+}
+.grid-cont .precio {
+  color: #3a7563;
+  margin: 0;
+  text-shadow: black 2px 2px 2px;
+  border-top: #978761 2px solid;
+  padding-top: 60px;
+  padding-left: 20px;
+}
+
+/*Ceramica*/
+
+.grid-cont-ceramic {
+  display: grid;
+  grid-template-rows: repeat(61, 90px);
+  grid-template-columns: 90px 1fr 90px;
+  column-gap: 8px;
+  row-gap: 5px;
+  background-color: #392f2f;
+}
+.grid-cont-ceramic .img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: double #e6d3a7 2px;
+}
+
+.grid-cont-ceramic .descrip {
+  color: white;
+  margin: 0;
+  font-size: 16px;
+  border-top: #978761 2px solid;
+  padding: 5px;
+}
+.grid-cont-ceramic .precio {
+  color: #3a7563;
+  margin: 0;
+  text-shadow: black 2px 2px 2px;
+  border-top: #978761 2px solid;
+  padding-top: 60px;
+  padding-left: 20px;
+}
+
+/*Sillas*/
+
+.grid-cont-sillas {
+  display: grid;
+  grid-template-rows: repeat(12, 90px);
+  grid-template-columns: 90px 1fr 90px;
+  column-gap: 8px;
+  row-gap: 5px;
+  background-color: #392f2f;
+}
+.grid-cont-sillas .img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: double #e6d3a7 2px;
+}
+
+.grid-cont-sillas .descrip {
+  color: white;
+  margin: 0;
+  font-size: 16px;
+  border-top: #978761 2px solid;
+  padding: 5px;
+}
+.grid-cont-sillas .precio {
+  color: #3a7563;
+  margin: 0;
+  text-shadow: black 2px 2px 2px;
+  border-top: #978761 2px solid;
+  padding-top: 60px;
+  padding-left: 20px;
+}
+
+/*Plantas*/
+
+.grid-cont-plantas {
+  display: grid;
+  grid-template-rows: repeat(6, 90px);
+  grid-template-columns: 90px 1fr 90px;
+  column-gap: 8px;
+  row-gap: 5px;
+  background-color: #392f2f;
+}
+.grid-cont-plantas .img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: double #e6d3a7 2px;
+}
+
+.grid-cont-plantas .descrip {
+  color: white;
+  margin: 0;
+  font-size: 16px;
+  border-top: #978761 2px solid;
+  padding: 5px;
+}
+.grid-cont-plantas .precio {
+  color: #3a7563;
+  margin: 0;
+  text-shadow: black 2px 2px 2px;
+  border-top: #978761 2px solid;
+  padding-top: 60px;
+  padding-left: 20px;
+}
+
+/*Otros*/
+
+.grid-cont-otros {
+  display: grid;
+  grid-template-rows: repeat(25, 90px);
+  grid-template-columns: 90px 1fr 90px;
+  column-gap: 8px;
+  row-gap: 5px;
+  background-color: #392f2f;
+}
+.grid-cont-otros .img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: double #e6d3a7 2px;
+}
+
+.grid-cont-otros .descrip {
+  color: white;
+  margin: 0;
+  font-size: 16px;
+  border-top: #978761 2px solid;
+  padding: 5px;
+}
+.grid-cont-otros .precio {
+  color: #3a7563;
+  margin: 0;
+  text-shadow: black 2px 2px 2px;
+  border-top: #978761 2px solid;
+  padding-top: 60px;
+  padding-left: 20px;
+}
